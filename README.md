@@ -11,3 +11,6 @@
 <p style="text-align: justify;">
 # :sparkles: Saya menggunakan HTML dan sedikit sentuhan CSS pada code ini. Lalu kemudian mengupload ke repository di GITHUB. Dengan mengerjakan project 1 milestone ini sebenarnya saya sedang mencoba mengasah kemampuan di 3 materi yakni HTML, CSS dan GITHUB. :sparkles:
 </p>
+
+Link Deployment Website Profile Zahra : 
+https://revou-fsse-oct25.github.io/milestone-1-Zahratunnisa1/
