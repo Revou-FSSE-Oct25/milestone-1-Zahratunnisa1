@@ -3,153 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zahratunnisa Profile</title>
-
-     <!-- Ini link CSS -->
-    <link rel="stylesheet" href="pages/satu.css">
+    <title>Zahratunnisa</title>
+    <link rel="stylesheet" href="/pages/index.css"/>
 </head>
 <body>
-    <body style="margin:0; padding:0; min-height:100vh; display:flex; flex-direction:column; background-color: white;"></body>
+    <header class="header">
+        <h3>Zahratunnisa</h3>
 
-    <header style="background-color: #4AD3D3; color: white;text-align: center; padding: 20px;">
-        <h1>Zahratunnisa's Profile</h1>
-        <h3>Your software engineer</h3>
-
-         <nav aria-label="Page Sections" style="margin-top: 10px; text-align: center;">
-             <nav aria-label="Main Navigation" style="margin-top: 10px; text-align: center;">
-                 <a href="#aboutme" style="margin: 0 15px; text-decoration: none; color: white;"><strong>About Me</strong></a>
-                <span style="margin-right: 10px;margin-left: 10px;">|</span>
-                 <a href="#education-skill" style="margin: 0 15px; text-decoration: none; color: white;">Educational & Skill</a>
-                <span style="margin-right: 10px; margin-left: 10px;">|</span>
-                 <a href="pages/portofolio.html" style="margin: 0 15px; text-decoration: none; color: white;">Portofolio</a>
-                <span style="margin-right: 10px; margin-left: 10px;">|</span>
-                 <a href="pages/work.html" style="margin: 0 15px; text-decoration: none; color: white;">Work with Zahra</a>
-                <span style="margin-right: 10px; margin-left: 10px;">|</span>
-                 <a href="#reachmeout" style="margin: 0 15px; text-decoration: none; color: white;">Reach me out</a>
-             </nav>
-         </nav>
+        <nav class="navbar">
+            <span><a href="/index.html">Home</a></span>
+            <span><a href="/pages/aboutmemore.html">About Me</a></span>
+            <span><a href="/pages/myproject.html">My Project</a></span>
+            <span><a href="/pages/contact.html">Reach me On</a></span>
+        </nav>
     </header>
+    <h2>Latest Post</h2>
 
-    <!--Ini adalah section About Me-->
-    <section id="aboutme" style="flex:1; display:flex; padding:20px; gap:20px;">
-        <figure class="left" style="padding-top: 150px;" >
-            <img img src="assets/littleme.jpg" alt="Foto Saya" width="200" height="150">
-        </figure>
+    <section class="box-container">
+      
+      <!--Box di sebelah kiri-->
+      <div class="left-column">
+        <div class="box1">
+        <img src="assets/Tempat-wisata-di-Bali.jpg" alt="Bali">
+          <div class="box1-content">
+            <h3>About Me</h3>
+            <p>My name is Zahratunnisa. I graduated in Chemical Engineering in 2022 from Mulawarman University in Samarinda. I have worked for approximately three years in a swasta company in Balikpapan as a laboratory analyst. In the midst of my career, I discovered a new passion in the IT world. <br>
+              <a href="/pages/aboutmemore.html">Read more --> </a>
+            </p>
+          </div>
+        </div>
+      
+        <div class="box1">
+        <img src="assets/travel.jpg" alt="Travel Image">
+          <div class="box1-content">
+             <h3>My Project</h3>
+              <p>I already finish some project like simple website. <a href="/pages/myproject.html" >You can see on --></a>
+              </p>
+          </div>
+        </div>
+      </div>  
+    
+      <!--Box di sebelah kanan-->
+      <aside class="right-column">
+        <div class="box2">
+          <img src="assets/travel.jpg" alt="Travel Image">
+          <div class="box2-content">
+            <h3>Reach Me On</h3>
+            <p>Let's make connection! Let's work together!
+              <a href="/pages/contact.html">Click here --></a>
+            </p>
+          </div>
+        </div>
 
-         <article class="right" style="color: black; max-width: 600px; font-size: 18px; line-height: 1.6; text-align: justify;">
-            <h2 style="font-size: 26px; margin-bottom: 10px; text-align: center ;">About Me</h2>
-                <p>
-                    My name is Zahratunnisa. I graduated in Chemical Engineering in 2022 from Mulawarman University in Samarinda. I have worked for approximately three years in a swasta company in Balikpapan as a laboratory analyst. In the midst of my career, I discovered a new passion in the IT world. I was initially amazed at how the world, especially daily life, has become easier because the presence of great software on our mobile phones, start from  e-banking, e-commerce, online motorcycle taxis, cashless payments like Q-RIS, and many more. I wondered how to create such a great application like that. I really wanted to have the ability to create applications that could simplify our daily lives. I searched for ways, studied on my own through the internet, but it felt like it wasn't enough. Until finally, in middle of 2025, I discovered Revo-U and decided to take the FSSE 2025 to deepen my knowledge.
-                </p>
-         </article>
+        <div class="box2">
+          <img src="assets/travel.jpg" alt="Travel Image">
+          <h3>Ecotic Lombok</h3>
+          <p>Discover the serene beauty of the ocean and golden sands.</p>
+        </div>
+      </aside>
     </section>
 
-     <!--Ini adalah section Education&Skill-->
-    <section id="education-skill">
-        <article>
-            <h2 style="margin: 0;">Educational Background</h2>
-                <ol style="margin-top: 5px; padding-left: 20px; font-size: 18px">
-                    <li>(2014-2016) SMAN 1 Tanjung</li>
-                    <li>(2017-2022) Universitas Mulawarman</li>  
-                </ol>
+  <footer>
+    <section class="footer-content">
+      <div class="f-desc">
+      <h2>Zahratunnisa</h2>
+        <p>Let's make connection and tell me about what you need</p>
+      </div>
 
-            <h2 style="margin: 0;">Non Formal Course</h2> 
-                <p style="margin-top: 5px; max-width: 400px; font-size: 18px; line-height: 1.6; text-align: justify;;">
-                    I decide to Join Revo-U Course Full stack software engineering start from October 2025 because i want to switch my career path in this industry. 
-                </p>
+      <div class="f-links">
+      <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/pages/aboutmemore.html">About Me</a></li>
+          <li><a href="/pages/myproject.html" >Project</a></li>
+          <li><a href="/pages/contact.html">Reach Me On</a></li>
+        </ul>
+      </div>
 
-        </article>
-
-         <!-- Bagian Skill -->
-        <aside>
-            <h2 style="margin: 0;">My Skill</h2>
-                <ul class="skill-list">
-                    <li class="skill-item">
-                        <img src="assets/HTML5.png" width="40" height="40">
-                        <div style="flex: 1;">
-                        <div style="font-weight: bold;">HTML</div>
-                        <div class="progress">
-                            <div class="progress-fill" style="width: 40%; background-color:#f16529;"></div>
-                        </div>
-                        <small>40%</small>
-                    </li>
-                    <br><br>
-                    
-                    <li class="skill-item">
-                        <img src="assets/css-logo.png" alt="CSS Logo" width="40" height="40">
-                        <div style="flex: 1;">
-                        <div style="font-weight: bold;">CSS</div>
-                        <div class="progress">
-                            <div class="progress-fill" style="width: 20%; background-color:blue;"></div>
-                        </div>
-                        <small>20%</small>
-                    </li><br><br>
-
-                    <li class="skill-item">
-                        <img src="assets/javascript.png" alt="JSS Logo" width="40" height="40">
-                        <div style="flex: 1;">
-                        <div style="font-weight: bold;">Javascript</div>
-                        <div class="progress">
-                            <div class="progress-fill" style="width: 10%; background-color: yellow;"></div>
-                        </div>
-                        <small>10%</small>
-                    </li><br><br>
-                    
-                    <li class="skill-item">
-                       <img src="assets/git.png" alt="GitHub Logo" width="40" height="40">
-                        <div style="flex: 1;">
-                        <div style="font-weight: bold;">GitHub</div>
-                        <div class="progress">
-                            <div class="progress-fill" style="width: 10%; background-color: black"></div>
-                        </div> 
-                        <small>10%</small> 
-                    </li>
-                </ul>
-        </aside>
-    </section>
-
-<!--Ini adalah section contact-->
-
-    <section id="reachmeout" style="flex:1; display:flex; flex-direction:column; padding:20px; gap:10px; align-items: center; text-align: center;">
-        <h2>Reach Me Out</h2>
-
-            <a href="https://github.com/zahratunnisa1" target="_blank"          style="display:inline-block;">
+      <div>
+        <h2>Follow Us</h2>
+          <div class="f-sosmed">
+            <a href="https://github.com/zahratunnisa1" target="_blank"            style="display:inline-block;">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
                  alt="GitHub" 
                  style="width:30px; height:30px; vertical-align:middle;">
                  <h4 style="display:inline; margin-left:8px;">zahratunnisa1</h4>
             </a>
-
+        
             <a href="https://www.linkedin.com/in/zahratunnisa-953881212/" target="_blank"          style="display:inline-block;">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
                  alt="LinkedIn" 
                  style="width:30px; height:30px; vertical-align:middle;">
                  <h4 style="display:inline; margin-left:8px;">Zahratunnisa.</h4>
             </a>
-
-            <div style="display:flex; align-items:center;">
-                <img src="assets/gmail.png" 
-                alt="Gmail" 
-                style="width:30px; height:30px;">
-                <h4 style="margin-left:8px;">zahranabintang2@gmail.com</h4>
-            </div>
-
-            <div style="display:flex; align-items:center;">
-                <img src="assets/wa.jpg" 
-                alt="Gmail" 
-                style="width:30px; height:30px;">
-                <h4 style="margin-left:8px;">082252720342</h4>
-            </div>
-
+          </div>
+      </div>
     </section>
-
-
-     <footer style="background-color:#4AD3D3; color:white; padding:20px 0; text-align:center;">
-
-        <!-- Teks di samping logo -->
-        <span>© 2025 Zahratunnisa. All Rights Reserved.</span>
-        </span>
-    </footer>
+  </footer> 
     
 </body>
 </html>

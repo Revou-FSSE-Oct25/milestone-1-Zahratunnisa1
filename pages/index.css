@@ -1,0 +1,235 @@
+/* RESET */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------- DEFAULT = MOBILE FIRST ------- */
+/* ↓ Tampilan HP dipakai di ukuran kecil */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.header {
+  height: auto;
+  padding: 20px 30px;
+  background-color: #8585ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 15px 15px;
+}
+
+/* Layout box mobile */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Box 1 mobile */
+.box1 {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.box1-content {
+  padding: 15px;
+}
+
+/* Box 2 (sidebar) mobile */
+.box2 {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer mobile */
+.footer-content {
+  background: #8585ff;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.f-sosmed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+/* =============================== */
+/* 📱 Tablet Landscape / Medium    */
+/* =============================== */
+@media (min-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: right;
+  }
+
+  .box1 {
+    flex-direction: row;      /* supaya gambar tetap di kiri */
+    width: 100%;              /* biar fleksibel */
+    height: auto;             /* biar lebih responsif */
+  }
+
+  .box1 img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .box2 {
+    flex-direction: row;
+    width: 100%;          
+    height: auto;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+/* =============================== */
+/* 💻 Desktop 1024px ke atas       */
+/* =============================== */
+@media (min-width: 1024px) {
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;        /* ❗ nav & h3 sejajar vertikal */
+  justify-content: space-between; 
+  padding: 2em 2em;
+  height: auto;
+  min-height: auto;
+  background-color: #8585ff;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;              /* ❗ supaya link tetap horizontal */
+  align-items: center;        /* ❗ supaya nav tidak turun */
+  gap: 20px;                  /* jarak antar menu */
+  }
+
+  .navbar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    background-color: #0000db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    transition: 0.3s;
+
+  }
+
+  .box-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .left-column {
+    flex: 2;
+  }
+
+  .right-column {
+    flex: 1;
+  }
+
+  /* Desktop ukuran asli sesuai desainmu */
+  .box1 {
+    flex-direction: row;
+    width: 800px;
+    height: 150px;
+  }
+
+  .box1 img {
+    width: 30%;
+    height: 100%;
+  }
+
+  .box2 {
+    width: 300px;
+    height: 150px;
+  }
+
+  .box1:hover,
+  .box2:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.25);
+  }
+
+  .footer-content {
+    flex-direction: row;
+    padding: 30px 100px;
+  }
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer p, footer li {
+  font-size: 1em;
+}
