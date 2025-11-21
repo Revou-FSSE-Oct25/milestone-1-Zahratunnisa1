@@ -71,7 +71,7 @@ body {
 .box1 {
   width: 100%;
   background: white;
-  border-radius: 10px;
+  border-radius: 2px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   display: flex;
@@ -85,7 +85,7 @@ body {
 }
 
 .box1-content {
-  padding: 15px;
+  padding: 50px;
 }
 
 /* Box 2 (sidebar) mobile */
@@ -93,7 +93,7 @@ body {
   width: 100%;
   background: white;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 2px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
@@ -206,11 +206,11 @@ body {
     flex: 1;
   }
 
-  /* Desktop ukuran asli sesuai desainmu */
+  /* Desktop ukuran saya atur sendiri */
   .box1 {
     flex-direction: row;
     width: 800px;
-    height: 150px;
+    height: 300px;
   }
 
   .box1 img {
@@ -232,7 +232,7 @@ body {
 
   .footer-content {
     flex-direction: row;
-    padding: 30px 100px;
+    padding: 30px 20px;
   }
 }
 
