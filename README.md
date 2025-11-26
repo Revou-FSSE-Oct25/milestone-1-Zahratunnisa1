@@ -36,7 +36,7 @@ body {
 
 ## My file structure for this assignment can looked like this :
 ## MILESTONE-1-ZAHRATUNNISA1/
-
+```
 ├── index.html
 │
 ├── pages.html
@@ -58,7 +58,7 @@ body {
 │   └── Comic_Relief,Lato,Plus_Jakarta_Sans,Poppins.zip
 │
 ├── README
-
+```
 
 Link Deployment Website Profile Zahra : 
 https://revou-fsse-oct25.github.io/milestone-1-Zahratunnisa1/
