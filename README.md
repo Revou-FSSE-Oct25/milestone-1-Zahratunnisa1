@@ -35,8 +35,8 @@ body {
 ## In this milestone , also i must to submit this assignment on GitHUB. Learning GitHUB gives me a little potret how about the real a software engineer life be likes, make me can imagine how if one day i have to do a company project and it's not just a "project", it's BIG Project. And its really hard if i handle own by myself so i need to collaborate with other software engineer. Even though for this assigment i handle this by myself and also a little help by AI. Ai is something very good tools nowadays as my co-partner to debugging my code, its not a problem to using AI as long as we can make sure that we understand what we write on HTML and CSS or any other programming languages.
 
 ## My file structure for this assignment can looked like this :
-MILESTONE-1-ZAHRATUNNISA1/
-│
+## MILESTONE-1-ZAHRATUNNISA1/
+
 ├── index.html
 │
 ├── pages.html

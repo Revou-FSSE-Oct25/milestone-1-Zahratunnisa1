@@ -1,6 +1,7 @@
 /* Container grid */
 .contact-grid {
   display: grid;
+  margin: auto 0;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
